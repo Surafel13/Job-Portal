@@ -51,9 +51,9 @@ Follow these instructions to set up your local development environment.
 
 ## Tech Stack Overview
 
-- **Frontend:** React, HTML, CSS, JavaScript (often Vite or Create React App)
+- **Frontend:** Vite React App
 - **Backend:** Node.js, Express.js (REST API architecture)
-- **Database:** Standard NoSQL or SQL implementations based on system requirements
+- **Database:** MongoDB
 
 ## Contributing
 
