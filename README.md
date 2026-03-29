@@ -27,7 +27,7 @@ Follow these instructions to set up your local development environment.
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/Surafel13/Job-Portal.git
    cd "Job Portal"
    ```
 
