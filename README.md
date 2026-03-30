@@ -1,35 +1,99 @@
-# Job Portal
+# 🚀 Job Portal Web Application
 
-A full-stack Job Portal web application. This platform connects employers with job seekers, empowering employers to post job listings seamlessly and allowing job seekers to seamlessly apply to those listings.
+A modern **Full-Stack Job Portal** designed to seamlessly connect **job seekers**, **companies**, and **administrators**.
+This platform enables efficient job posting, application management, and user interaction through a clean and intuitive interface.
 
-## Project Structure
+---
 
-This project adopts a modern full-stack web architecture, categorized into two main folders:
-- `FrontEnd/`: Contains the client-side application (React, utilizing modern Hooks context or state management).
-- `BackEnd/`: Contains the server-side API (Node.js/Express.js handling HTTP requests, auth, and DB connections).
+## 🌐 Live Demo
 
-## Features
+🔗 **Live Demo:** *(Add your deployed link here)*
 
-- **Job Listings:** Display, search, and filter available jobs. Detailed views for individual roles.
-- **Job Applications:** Job seekers can review and natively apply to preferred job postings.
-- **Company Dashboard:** Employers can comprehensively manage job assets, review candidate applications, and evaluate submissions.
-- **Authentication & Authorization:** Secure login and role-based mechanisms. Both job seekers and employers possess varying levels of platform access depending on their roles.
+The system is already deployed.
 
-## Getting Started
+---
 
-Follow these instructions to set up your local development environment.
+## 👥 Demo Accounts
 
-### Prerequisites
-- Node.js (v18+ recommended)
-- MongoDB / Relevant Database service
+Use the following demo credentials to explore different roles:
 
-### Installation & Setup
+### 👤 Job Seeker (User)
 
-1. **Clone the repository:**
-   ```bash
-   git clone <repository_url>
-   cd "Job Portal"
-   ```
+* **Email:** [abebe@gmail.com](mailto:user@example.com)
+* **Password:** 111111
+
+### 🏢 Company (Employer)
+
+* **Email:** [dsa@gmail.com](mailto:company@example.com)
+* **Password:** 111111
+
+### 🛠️ Admin
+
+* **Email:** [admin@gmail.com](mailto:admin@example.com)
+* **Password:** 111111
+
+---
+
+## 🎯 Key Features
+
+### 🔍 Job Management
+
+* Browse, search, and filter job listings
+* View detailed job descriptions
+
+### 📄 Applications
+
+* Apply to jobs directly through the platform
+* Track submitted applications
+
+### 🏢 Company Dashboard
+
+* Post and manage job listings
+* View and evaluate applicants
+
+### 🔐 Authentication & Authorization
+
+* Secure login system
+* Role-based access:
+
+  * User
+  * Company
+  * Admin
+
+---
+
+## 🏗️ Project Structure
+
+```
+Job Portal/
+│
+├── FrontEnd/   → React client application
+└── BackEnd/    → Node.js & Express API
+```
+
+* **FrontEnd:** Handles UI and user interaction
+* **BackEnd:** Handles API, authentication, and database operations
+
+---
+
+## ⚙️ Tech Stack
+
+* **Frontend:** React, HTML, CSS, JavaScript
+* **Backend:** Node.js, Express.js
+* **Database:** MongoDB (or any configured database)
+
+---
+
+## 🧑‍💻 Step-by-Step Setup Guide
+
+Follow these steps to run the project locally:
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone <repository_url>
+cd "Job Portal"
+```
 
 ---
 
@@ -69,15 +133,53 @@ Run frontend:
 npm run dev
 ```
 
-4. Open your browser and navigate to the indicated local development server (e.g., `http://localhost:5173` or `http://localhost:3000`).
+---
 
-## Tech Stack Overview
+### 4️⃣ Open the Application
 
-- **Frontend:** React, HTML, CSS, JavaScript (often Vite or Create React App)
-- **Backend:** Node.js, Express.js (REST API architecture)
-- **Database:** Standard NoSQL or SQL implementations based on system requirements
+Go to:
 
-## Contributing
+```
+http://localhost:5173
+```
+
+or
+
+```
+http://localhost:3000
+```
+
+---
+
+## 🧭 How to Use the System
+
+### 👤 As a Job Seeker
+
+1. Sign up or log in
+2. Browse available jobs
+3. Apply to preferred positions
+4. Track your applications
+
+---
+
+### 🏢 As a Company
+
+1. Log in as a company
+2. Create job postings
+3. Manage job listings
+4. Review applicants
+
+---
+
+### 🛠️ As an Admin
+
+1. Log in as admin
+2. Manage users and companies
+3. Monitor system activities
+
+---
+
+## 🤝 Contributing
 
 Contributions are welcome!
 
