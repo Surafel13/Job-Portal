@@ -45,6 +45,7 @@ Use the following demo credentials to explore different roles:
 
 * Apply to jobs directly through the platform
 * Track submitted applications
+* Allow users and campanies comminunication (currentlly I am working on this. It is not finished).
 
 ### 🏢 Company Dashboard
 
