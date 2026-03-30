@@ -27,34 +27,68 @@ Follow these instructions to set up your local development environment.
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/Surafel13/Job-Portal.git
+   git clone <repository_url>
    cd "Job Portal"
    ```
 
-2. **Backend Setup:**
-   ```bash
-   cd BackEnd
-   npm install
-   # IMPORTANT: Create a .env file and populate it with required database URIs and SECRETS
-   npm run dev # or npm start
-   ```
+---
 
-3. **Frontend Setup:**
-   ```bash
-   cd ../FrontEnd
-   npm install
-   # Configure your frontend API environment variables (if any)
-   npm run dev
-   ```
+### 2️⃣ Setup Backend
+
+```bash
+cd BackEnd
+npm install
+```
+
+Create a `.env` file and add:
+
+```
+PORT=5000
+MONGO_URI=your_database_url
+JWT_SECRET=your_secret_key
+```
+
+Run backend:
+
+```bash
+npm run dev
+```
+
+---
+
+### 3️⃣ Setup Frontend
+
+```bash
+cd ../FrontEnd
+npm install
+```
+
+Run frontend:
+
+```bash
+npm run dev
+```
 
 4. Open your browser and navigate to the indicated local development server (e.g., `http://localhost:5173` or `http://localhost:3000`).
 
 ## Tech Stack Overview
 
-- **Frontend:** Vite React App
+- **Frontend:** React, HTML, CSS, JavaScript (often Vite or Create React App)
 - **Backend:** Node.js, Express.js (REST API architecture)
-- **Database:** MongoDB
+- **Database:** Standard NoSQL or SQL implementations based on system requirements
 
 ## Contributing
 
-Contributions, issues, and feature requests are very welcome! Feel free to refer to the project's issues page to participate in making this platform more robust.
+Contributions are welcome!
+
+* Fork the repository
+* Create a new branch
+* Submit a pull request
+
+---
+
+## ⭐ Final Note
+
+This project demonstrates a complete **real-world full-stack application**, including authentication, role management, and dynamic data handling.
+
+---
